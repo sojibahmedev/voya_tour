@@ -1,0 +1,222 @@
+.container {
+  width: 100%;
+}
+.hero-section {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  margin: 0 auto;
+  gap: 30px;
+  position: relative;
+}
+.hero-child-left-img{
+    width: 650px;
+    position: absolute;
+    top: 0;
+    left: -78px;
+}
+.hero-child-right-span {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+}
+.hero-child-right > h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.hero-child-right > p {
+  font-family: "DM Serif Text", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  color: #66666685;
+}
+.hero-child-right > h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.hero-child-right-btn > button {
+  padding: 8px 30px;
+  border-radius: 10px;
+  background-color: #faa63b;
+  outline: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.87);
+}
+.hero-child-right-btn > button:hover {
+  background-color: #640bd1;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.hero-child-right-btn > i {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.295);
+  border-radius: 8px;
+  margin-left: 20px;
+}
+.hero-child-right-btn-con {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+}
+.hero-child-right-btn-con > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #66666685;
+  position: absolute;
+  top: -36px;
+  left: 5px;
+}
+.hero-child-right-btn-con > h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  position: absolute;
+  top: -42px;
+  left: 5px;
+}
+.hero-child-right-count {
+  display: flex;
+  gap: 20px;
+  font-family: "Noto Sans Shavian", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.hero-child-right-count-h4{
+  margin-bottom: -20px;
+}
+.hero-child-right-count-item-1 > h5{
+  color: #47474757;
+}
+.hero-child-right-count-item-2 > h5{
+    color: #47474757;
+}
+.hero-child-right-count-item-3 > h5{
+    color: #47474757;
+}
+.animation {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    border: 1.75px dashed #ff70d2;
+    animation: rotate 110s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation-second {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    border: 1.75px dashed #8b74ff;
+    animation: rotate 110s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animation-third {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 1.75px dashed #fdca92;
+    animation: rotate 110s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+label, select {
+  display: inline-block;
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  position: absolute;
+  bottom: -10px;
+  left: 3px;
+}
+.hero-custom-search-section{
+  width: 1000px;
+  display: flex;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 1px 6px 24px -10px;
+  position: absolute;
+  top: 555px;
+  left: 272px;
+  background-color: white;
+  gap: 58px;
+}
+.hero-custom-search-section-item1 {
+  display: flex;
+  position: relative;
+  width: 200px;
+}
+.hero-custom-search-section-col1{
+  position: relative;
+  border-right: 1px solid rgba(111, 108, 108, 0.558);
+  width: 25%;
+  padding-right: 75%;
+}
+.hero-custom-search-section-col1 > label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #66666685;
+  position: absolute;
+  top: -8px;
+  left: 8px;
+}
+.hero-custom-search-section-option{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  position: absolute;
+  top: -42px;
+  left: 5px;
+}
+.hero-custom-search-section-item1 > i {
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.295);
+  border-radius: 8px;
+  margin-left: 20px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  color: #FFE2C6;
+}
+.hero-custom-search-section-item1 > button {
+  padding: 8px 47px;
+  border-radius: 10px;
+  background-color: #faa63b;
+  outline: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 22px;
+}
+.search-size-search-item-1{
+  font-size: 20px;
+}
+.hero-custom-search-section-item4-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
